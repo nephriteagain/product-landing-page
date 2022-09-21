@@ -1,0 +1,240 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, sans-serif;
+}
+
+html {
+  font-size: 110%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eee;
+}
+
+#header-img {
+    min-width: none;
+    max-width: 100px;
+}
+
+#company-name {
+    font-size: 2.3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+#nav-bar > ul > li {
+    display: inline;
+    font-size: 1.5rem;
+    padding: 1.5rem 3.2rem;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#nav-bar {
+    margin-left: auto;
+
+}
+
+section, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+iframe, #submit {
+    display: block;
+    margin: 0 auto;
+}
+
+#pricing {
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+footer {
+    max-width: 80%;
+    background-color: bisque;
+    margin: 8rem auto 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: right;
+    font-size: 1.1rem;
+}
+
+#footer-li {
+    list-style-type: none;
+}
+
+#footer-li > li {
+    padding-bottom: 10px;
+    padding-right:2rem;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#copy-right {
+    padding-right: 2rem;   
+}
+
+.product {
+    margin: 0 auto;
+    width: 20%
+    
+}
+
+#features {
+    width: 60%;
+    margin: 3rem auto 5rem;
+    text-align: left;
+
+}
+
+h2, p, li{
+    padding: 0.3rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.product {
+    border: 1px solid black;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    margin-top: 2rem;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.level {
+    font-weight: bold;
+    font-size: 130%;
+    padding-bottom: 1.5rem;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.product .btn {
+    margin-top: 1.3rem;
+    width: 5rem;
+    font-weight: bolder;
+    background-color: orange;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+#hero > h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+}
+
+#hero > #form > #submit, #hero > #form > #email {
+    margin-bottom: 1.5rem;
+}
+
+#email, #form > #submit {
+    padding: 0.5rem;
+}
+
+#form > #submit {
+    background-color: rgb(218, 230, 60);
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h2[color="green"] {
+    color: green;
+}
+
+
+a:hover { 
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+   body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #header-img {
+        display: block;
+        margin: 1rem auto;
+    }
+ 
+    #nav-bar > ul > li, #email, #form > #submit {
+        text-align: center;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    #features {
+        width: 90%;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center !important;
+    }
+
+    .product {
+        width: 80%;
+    }
+
+    #company-name {
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    #footer-li > li {
+        display: block;
+        text-align: center;
+        padding-left: 2.5rem;
+    }
+    
+}
